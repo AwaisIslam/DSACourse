@@ -1,8 +1,11 @@
-import patterns.StarPattern;
+import patterns.RightAngleTrianglePattern;
 
 public class Main {
     public static void main(String[] args) {
-        StarPattern starPattern = new StarPattern();
-        starPattern.printRectangularStar(5);
+        /*StarPattern firstPattern = new StarPattern();
+        firstPattern.printRectangularStar(5);*/
+
+        RightAngleTrianglePattern secondPattern = new RightAngleTrianglePattern();
+        secondPattern.printRightAngledRectangularPattern(5);
     }
 }
